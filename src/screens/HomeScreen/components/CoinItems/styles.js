@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
       flexDirection: 'row',
       borderBottomWidth: StyleSheet.hairlineWidth,
       borderBottomColor: "#282828",
-      padding: 10
+      padding: 20
     },
     title: {
       color: 'white',

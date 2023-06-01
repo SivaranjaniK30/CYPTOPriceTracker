@@ -22,8 +22,8 @@ function Index({ marketCoin }) {
   }
   return (
     <View style={styles.coinContainer}>
-      <Image style={{ width: 100, height: 100, backgroundColor: 'black', marginRight: 10, marginVertical: 5 }}
-        source={{ uri: "https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579" }}
+      <Image style={{ width: 20, height: 20, backgroundColor: 'black', marginRight: 10, marginVertical: 5 }}
+        source={{ uri: image }}
       />
       <View>
         <Text style={styles.title}>{name}</Text>

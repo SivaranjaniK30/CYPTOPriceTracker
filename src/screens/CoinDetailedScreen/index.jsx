@@ -14,7 +14,7 @@ function CoinDetailedScreen() {
             <ChartPathProvider data={{ points: prices.map((price) => ({x: price[0], y: price[1]})), smoothingStrategy: 'bezier' }}>
                 <CoinHeaderDetails image={small} symbol={symbol} marketCapRank={market_cap_rank} />
 
-                <View style={styles.priceContaiiosner}>
+                <View style={styles.priceContainer}>
                     <View >
                         <Text style={styles.name}>{name}</Text>
                         <Text style={styles.currentPrice}>${current_price.usd}</Text>

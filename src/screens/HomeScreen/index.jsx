@@ -1,5 +1,5 @@
 import { View, FlatList } from 'react-native';
-import CoinItems from '../../components/CoinItems'
+import CoinItems from './components/CoinItems'
 import cryptocurrencies from '../../../assets/data/cryptocurrencies.json';
 import styles from './styles';
 

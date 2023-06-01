@@ -7,7 +7,7 @@ export default function App() {
   return (
     <> 
       <StatusBar style='light' />
-      <HomeScreen />
+      <CoinDetailedScreen />
     </>
   );
 }
